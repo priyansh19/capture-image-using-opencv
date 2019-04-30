@@ -31,7 +31,7 @@ def run():
         cv2.destroyAllWindows()
 
         # if image captured, break
-        if status == True:
+        if check == True:
             break
 
     # encode data into PNG format
