@@ -1,5 +1,5 @@
 # import libraries
-import cv2
+import cv2, time
 import os, json, sys
 
 # define init function
@@ -29,7 +29,6 @@ def run():
         camera.release()
         # destroy all open window
         cv2.destroyAllWindows()
-
         # if image captured, break
         if check == True:
             break
@@ -38,7 +37,7 @@ def run():
     data = cv2.imencode(".png", frame)[1].tostring()
 
     # save image
-    cv2.imwrite("Authentication.png",frame)
+    cv2.imwrite("Capture-Image.png",frame)
 
     # return status
     if(check == True):
