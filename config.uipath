@@ -1,0 +1,4 @@
+{
+  "API_KEY" : "72b074873a70462aab81ba09dfac83e2",
+  "API_ENDPOINT" : "https://australiaeast.api.cognitive.microsoft.com/face/v1.0/detect/"
+}
